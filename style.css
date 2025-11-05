@@ -48,6 +48,8 @@
         --h1-font-size: 2.25rem;
         --h2-font-size: 1.5rem;
         --h3-font-size: 1.25rem;
+        --h4-font-size: 1.00rem;
+        --h5-font-size: .83rem;
         --normal-font-size: 1rem;
         --small-font-size: .875rem;
         --smaller-font-size: .813rem;
@@ -76,7 +78,7 @@ body
     line-height: 1.6;
 }
 
-h1, h2, h3, p
+h1, h2, h3, h4, h5, p
 {
     margin: 0;
 }
@@ -133,7 +135,7 @@ img
     color: var(--first-color-darken);
     text-align: center;
     font-weight: var(--font-bold);
-    margin-bottom: .25rem;
+    margin-bottom: .50rem;
 }
 
 /* Layout */
@@ -527,6 +529,71 @@ img
 }
 
 .education__line
+{
+    display: block;
+    height: 90%;
+    width: 2px;
+    background-color: var(--first-color);
+    transform: translate(5px, -4px);
+}
+
+/* -------------------------------- Experience------------------------- */
+.experience__container
+{
+    row-gap: 2rem;
+}
+
+.experience__content
+{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+}
+
+.experience__year, .experience__race
+{
+    font-size: var(--h3-font-size);
+    mask-border: .25rem;
+}
+
+.experience__university, .experience__specialty
+{
+    display: block;
+    font-size: var(--smaller-font-size);
+}
+
+.experience, .experience__university
+{
+    text-align: right;
+}
+
+.experience__time
+{
+    padding: 0 1rem;
+    justify-self: center;
+}
+
+.experience__rounder
+{
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+}
+
+.experience__rounder::before
+{
+    content: '';
+    position: absolute;
+    transform: translate(-4px, -4px);
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--first-color);
+    border-radius: 50%;
+}
+
+.experience__line
 {
     display: block;
     height: 90%;
