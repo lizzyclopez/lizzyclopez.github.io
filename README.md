@@ -1,56 +1,48 @@
-# Simple Developer Portfolio Template
+[![Nihory - Portfolio site template](https://i.ibb.co/Y8CRzL4/Nihory-basic-preview-image.png)](https://nihory-basic.netlify.app/)
+.
+.
 
-![Project Preview](portfolio_preview.jpg)
+Nihory is a creative 🌈 personal & portfolio template based on HTML, CSS and Javascript. You can use it for your personal resume, CV or your portfolio. It will help you to present your self even your Business & portfolio more smartly and easily. Nihory is written in valid and clean HTML & CSS3 code. It’s easy to customize 🖌
 
-## Description
 
-This is a very simple, but elegant responsive portfolio template built using plain JavaScript, HTML, and CSS. It’s designed to be easily customizable, allowing any developer to quickly create a personal portfolio site. Below you'll find detailed information about the features and how to use this template.
+## Features 🧯
 
-## Table of Contents
+* 🔥 Clean and Professional Design
+* 🔥 100% Responsive
+* 🔥 Clean and commented code
+* 🔥 W3C Valid HTML5 & CSS3
+* 🔥 Free Fonts from Google Fonts
+* 🔥 Free Icons from Font Awesome
+* 🔥 Crossover Browsers Compatibility
+* 🔥 Easy Customization
+* 🔥 One Html Page Code
+* 🔥 Free Future Updates
+* 🎧 Friendly 5 stars Support 24/7
 
-- [Features](#features)
-- [Live Preview](#live-preview)
-- [Usage](#usage)
-- [Recent Updates](#recent-updates)
-- [License](#license)
+.
+.
 
-## Features
+[![Nihory - Portfolio site template live demo](https://i.ibb.co/vwN8cgW/live-demo.png)](https://nihory-basic.netlify.app/)
 
-- Responsive Design
-- Single-page layout
-- Simple and customizable
-- PHP Mailer Integration
+.
+.
 
-## Live Preview
+## Fonts Used 🏴‍☠️🏴🏳🏳‍🌈
+1) [Poppins](https://fonts.google.com/specimen/Poppins?query=pop)
 
-Check out the live preview of the Simple Developer Portfolio [here](https://hhlitval.github.io/simple-portfolio-template).
 
-## Usage
 
-To use this template, follow these steps:
+## Icons Used 🥑🌴
+- [BoxIcons](https://boxicons.com/)
 
-1. **Clone the Repository**: 
-    ```bash
-    git clone https://github.com/hhlitval/simple-portfolio-template.git
-    ```
-2. **Customization**:
-   - Update `index.html` with your information.
-   - Modify `style.css` for custom styles.
-3. **Email Integration**:
-   To enable email functionality:
-   - Upload the project to a PHP-enabled server.
-   - Configure the `mail.php` file with your email credentials.
-4. **Deployment**:
-   - Host the project on a server that supports PHP for email functionality.
-   - **If hosting on GitHub Pages, note that email handling will not work, since GitHub Pages is a static hosting service**.
 
-## Recent Updates
 
-- Refactored font sizes and styles for improved readability and balance.
-- Reworked animations for smoother transitions and a modern look.
-- Removed the preloader for a faster, simplified user experience.
-- Added [PHP Mailer](https://github.com/PHPMailer/PHPMailer) integration for email handling (requires a PHP-enabled server, not supported on GitHub Pages).
+## Image Credits 🛡
+* 📸 Behance
+* 📸 Unsplash
+* 📸 Pexels
+<br/>
+<br/>
 
-## License
 
-This project is licensed under the MIT License.
+[![Atul - Buy Me A Coffee](https://i.ibb.co/7rR9S4L/buy-me-a-coffee.png)](https://www.buymeacoffee.com/atulcodex)
