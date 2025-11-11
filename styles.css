@@ -14,22 +14,23 @@ body {
 }
 
 .logo-image {
-    /*height: 200px;*/
-    height: auto;
+    height: 100px;
+    /*height: auto;
     max-height: 200px;
-    width: auto;
+    width: auto;*/
 }
 
 .navbar-left {
-    padding-left: 50px;  
-    border: 2px solid red; 
+    padding-left: 20px;  
+    /*height: 50px;
+    border: 2px solid red; */
 }
 
 .navbar-right {
     padding-right: 20px;
-    display: flex;
+    /*display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center;*/
 }
 
 .a-element {
@@ -43,6 +44,7 @@ body {
 
 .home {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     /*min-height: 80vh; fills most of the screen. height: 85px; */
@@ -53,8 +55,11 @@ body {
 
 .home-left {
     width: 50vw;
+    text-align: right;
+    padding-left: 200px;
 }
 
 .home-right {
     width: 50vw;
+    padding-left: 100px;
 }
