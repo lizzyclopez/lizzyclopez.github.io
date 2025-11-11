@@ -1,7 +1,3 @@
-# 👋 Lizzy Lopez
-
-### 💼 Senior Full Stack Software Engineer  
-📍 I'm based in Pembroke Pines, FL  
 
 ---
 
