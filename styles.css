@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    /*isplay: flex;*/
+    /*display: flex;*/
     height: 100px;
     flex-direction: row;
     /*justify-content: space-between;*/
@@ -67,7 +67,7 @@ body {
 }
 
 .projects {
-    padding: 50p;
+    padding: 50px;
 }
 
 .projects-h1 {
@@ -87,7 +87,7 @@ body {
     border: 2px solid green;
     margin: 20px;
     padding: 20px;
-    width: 400px;;
+    width: 400px;
 }
 
 .p-h1 {
