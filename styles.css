@@ -45,15 +45,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 80vh; /* fills most of the screen. height: 85px; */
-    padding: 40px;
+    /*min-height: 80vh; fills most of the screen. height: 85px; */
+    height: 85vh;
+    /*padding: 40px;*/
     border: 2px solid red; /* keep if debugging layout */
 }
 
 .home-left {
-    width: 50vh;
+    width: 50vw;
 }
 
 .home-right {
-    width: 50vh;
+    width: 50vw;
 }
