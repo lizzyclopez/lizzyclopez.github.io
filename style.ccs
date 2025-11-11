@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: black;    
     color: white;
+    font-family: 'Inter', sans-serif;
 }
 
 .navbar {
@@ -13,7 +14,10 @@ body {
 }
 
 .logo-image {
-    height: 200px;
+    /*height: 200px;*/
+    height: auto;
+    max-height: 200px;
+    width: auto;
 }
 
 .navbar-left {
@@ -31,7 +35,7 @@ body {
 .a-element {
     padding: 10px;
     margin: 10px;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: bold;
     border: 2px solid red;    
@@ -39,17 +43,17 @@ body {
 
 .home {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 85px;
-    border: 2px solid red;
+    min-height: 80vh; /* fills most of the screen. height: 85px; */
+    padding: 40px;
+    border: 2px solid red; /* keep if debugging layout */
 }
 
 .home-left {
-    width: 50px;
+    width: 50vh;
 }
 
 .home-right {
-    width: 50px;
+    width: 50vh;
 }
