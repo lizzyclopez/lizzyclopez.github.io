@@ -12,7 +12,7 @@ body {
     display: flex;
     height: 60px;
     flex-direction: row;    
-    justify-content: space-between;
+    
     border: 2px solid red; /* keep if debugging layout */
     padding-right: 10px;        
 }
