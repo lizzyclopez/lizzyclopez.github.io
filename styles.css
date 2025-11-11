@@ -10,11 +10,12 @@ body {
 
 .navbar {
     display: flex;
-    height: 60px;
+    height: 100px;
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
     border: 2px solid red; /* keep if debugging layout */
+    padding-right: 20px;    
 }
 
 .navbar-left {
