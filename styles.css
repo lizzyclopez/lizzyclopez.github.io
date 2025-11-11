@@ -34,10 +34,11 @@ body {
 
 .home {
     display: flex;
+    padding: 20px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 65vh;
+    height: 85vh;
     border: 2px solid red; /* keep if debugging layout */
 }
 
