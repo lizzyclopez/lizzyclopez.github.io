@@ -27,11 +27,12 @@ body {
 }
 
 .a-element {
-    padding: 10px;
+    padding-right: 10px;
     margin: 10px;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: bold;    
+    color: white;
 }
 
 .home {
