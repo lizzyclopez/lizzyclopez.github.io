@@ -66,3 +66,37 @@ body {
     font-family: 'Encode Sans', sans-serif;
     font-size: 20px;
 }
+
+.projects {
+    padding: 50p;
+}
+
+.pro-h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: green;
+    letter-spacing: 2px;    
+    font-size: 50px;
+    font-style: italic;
+}
+
+.projects.sub-container {
+    display: flex;
+    flex-direction: row;    
+}
+
+.projects.card {
+    border: 2px solid green;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;;
+}
+
+.prj-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.prj-p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
