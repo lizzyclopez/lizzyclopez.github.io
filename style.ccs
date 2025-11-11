@@ -9,6 +9,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: black;
+    border: 2px solid red; 
 }
 
 .logo-image {
@@ -17,6 +18,7 @@ body {
 
 .navbar-left {
     padding-left: 50px;  
+    border: 2px solid red; 
 }
 
 .navbar-right {
@@ -40,14 +42,14 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 85%;
+    height: 85px;
     border: 2px solid red;
 }
 
 .home-left {
-    width: 50%;
+    width: 50px;
 }
 
 .home-right {
-    width: 50%;
+    width: 50px;
 }
