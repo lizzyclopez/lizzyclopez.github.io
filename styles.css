@@ -13,7 +13,7 @@ body {
     height: 100px;
     flex-direction: row;
     /*justify-content: space-between;*/
-    background-color: white;
+    background-color: black;
     border: 2px solid red; /* keep if debugging layout */
     padding-right: 10px;    
 }
