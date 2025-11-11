@@ -1,12 +1,22 @@
+body {
+    margin: 0;
+    background-color: black;    
+    color: white;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(148,192,148);
+    background-color: black;
+}
+
+.logo-image {
+    height: 200px;
 }
 
 .navbar-left {
-    padding:left: 20px;
+    padding:left: 50px;    
 }
 
 .navbar-right {
@@ -27,4 +37,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    height: 85vh;
+    border: 2px solid red;
+}
+
+.home-left {
+    width: 50vh;
+}
+
+.home-right {
+    width: 50vh;
 }
