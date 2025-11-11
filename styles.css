@@ -5,8 +5,11 @@ body {
 }
 
 .navbar {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+
     display: flex;
-    height: 50px;
+    height: 10px;
     color: white;
     flex-direction: row;
     justify-content: space-between;
