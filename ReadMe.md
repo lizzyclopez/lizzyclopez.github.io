@@ -13,6 +13,18 @@ I’m currently pursuing a challenging role in **Development, Maintenance, and S
 
 ---
 
+### Work Experience
+Senior Software Engineer @ DXC Technolgy
+- big project 1!
+- big project 2!
+
+---
+
+### Education
+Information Technolgy, Associates in Arts
+
+---
+
 ### 💡 Featured Projects  
 - 🧾 [**Billing System**](https://github.com/lizzylopez/BillingSystemReports) — SQL Server–based billing system for reporting and automation. SQL Server, Power BI, & ASP.NET MVC with C#.  
 - 📊 [**Power BI Reports Dashboard**](https://github.com/lizzylopez/PowerBI-Dashboard) — Interactive business intelligence dashboard for financial analysis. Power BI dashboards.
