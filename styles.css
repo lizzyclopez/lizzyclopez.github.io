@@ -8,12 +8,13 @@ body {
     height: 200px;  
 }
 
-.navbar {
-    
+.navbar {    
     height: 60px;
-    flex-direction: row;    
-    justify-content: space-between;
     padding-right: 10px;        
+    /*display: flex;
+    flex-direction: row;    
+    justify-content: space-between;*/
+    
 }
 
 .navbar-left {
