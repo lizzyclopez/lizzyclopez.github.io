@@ -77,12 +77,12 @@ body {
     font-style: italic;
 }
 
-.projects.sub-container {
+.projects-sub-container {
     display: flex;
     flex-direction: row;    
 }
 
-.projects.card {
+.projects-card {
     border: 2px solid green;
     margin: 20px;
     padding: 20px;
