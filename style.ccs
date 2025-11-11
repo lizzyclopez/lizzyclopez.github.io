@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-left {
-    padding:left: 50px;    
+    padding-left: 50px;  
 }
 
 .navbar-right {
@@ -29,7 +29,7 @@ body {
 .a-element {
     padding: 10px;
     margin: 10px;
-    font-family: san-serif;
+    font-family: sans-serif;
     font-size: 20px;
     font-weight: bold;
     border: 2px solid red;    
@@ -40,14 +40,14 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 85vh;
+    height: 85%;
     border: 2px solid red;
 }
 
 .home-left {
-    width: 50vh;
+    width: 50%;
 }
 
 .home-right {
-    width: 50vh;
+    width: 50%;
 }
