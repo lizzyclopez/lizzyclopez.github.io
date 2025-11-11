@@ -37,7 +37,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 85vh;
+    height: 65vh;
     border: 2px solid red; /* keep if debugging layout */
 }
 
