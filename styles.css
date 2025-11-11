@@ -9,10 +9,8 @@ body {
 }
 
 .navbar {
-    
     display: flex;
     height: 10px;
-
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
@@ -90,12 +88,12 @@ body {
     width: 400px;;
 }
 
-.prj-h1 {
+.p-h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
 }
 
-.prj-p1 {
+.p-p1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
