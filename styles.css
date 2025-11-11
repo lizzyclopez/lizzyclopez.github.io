@@ -1,8 +1,7 @@
 body {
     margin: 0;
     background-color: black;    
-    color: white;
-    font-family: 'Inter', sans-serif;
+    color: white;    
 }
 
 .navbar {
@@ -13,10 +12,7 @@ body {
 }
 
 .logo-image {
-    height: 100px;
-    /*height: auto;
-    max-height: 200px;
-    width: auto;*/
+    height: 200px;  
 }
 
 .navbar-left {
