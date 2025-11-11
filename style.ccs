@@ -29,6 +29,9 @@ body {
 .a-element {
     padding: 10px;
     margin: 10px;
+    font-family: san-serif;
+    font-size: 20px;
+    font-weight: bold;
     border: 2px solid red;    
 }
 
