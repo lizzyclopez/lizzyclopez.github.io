@@ -10,7 +10,7 @@ body {
 
 .navbar {
     display: flex;
-    height: 10px;
+    height: 60px;
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
