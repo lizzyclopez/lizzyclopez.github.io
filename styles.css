@@ -22,8 +22,7 @@ body {
 .navbar-left {
     padding-left: 20px; 
     width: 100px;
-    height: auto;   
-    border: 2px solid red; /* keep if debugging layout */
+    height: auto;       
 }
 
 .navbar-right {
