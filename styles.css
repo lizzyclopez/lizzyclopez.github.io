@@ -5,13 +5,13 @@ body {
 }
 
 .logo-image {
-    height: 40px;  
-    width: auto;
+    height: 50px;  
+    width: auto;    
 }
 
 .navbar {    
     height: 60px;
-    padding-right: 10px;        
+    padding-top: 10px;        
     display: flex;
     flex-direction: row;    
     justify-content: space-between;    
@@ -22,6 +22,7 @@ body {
     padding-left: 20px; 
     width: 100px;
     height: auto;   
+    border: 2px solid red; /* keep if debugging layout */
 }
 
 .navbar-right {
