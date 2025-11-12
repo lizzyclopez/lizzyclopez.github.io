@@ -115,6 +115,7 @@ body {
 }
 
 .social-icon-img {
-    height: 50px;
-    padding: 20px;
+    height: 30px;
+    width: auto;
+    padding: 10px;
 }
