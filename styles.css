@@ -51,9 +51,9 @@ body {
 }
 
 .home-left {
-    width: 100vw;
+    width: 200vw;
     text-align: right;
-    padding-left: 60px;
+    padding-left: 50px;
 }
 
 .home-right {
