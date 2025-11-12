@@ -5,7 +5,8 @@ body {
 }
 
 .logo-image {
-    height: 5px;  
+    height: 40px;  
+    width: auto;
 }
 
 .navbar {    
