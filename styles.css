@@ -48,9 +48,31 @@ a {
     margin: 0 15px;
 }
 
+#home::checkmark
+    background-color: #e0ab9d;  /*background: url('hero-bg.jpg') no-repeat center center/cover;*/
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+#home button {
+    padding: 10px 20px;    
+    background-color: #e8491d;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/*
 a:hover {
     text-decoration: underline;
-}
+}*/
 
 
 /*
