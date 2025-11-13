@@ -3,12 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lizzy Personal Portfolio Site</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&family=Inter&family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>    
-    <div class="navbar">    
+    <header>
+        <nav>
+            <h1 class="logo-image"></h1>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Hello, I'm Lizzy</h2>
+        <p>Full Stack Developer</p>
+        <button onclick="scrollToSection('Projects')">View Projects</button>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate full stack developer with a love for efficient and functional applications. I enjoy working on open source projects and collaborating with other developers.</p>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-card">
+            <h3>Billing System Application</h3>
+            <p>This is a full stack application for reporting purposes.</p>            
+        </div>
+        <div class="projects-card">
+            <h3>Power BI</h3>
+            <p>This is a Power BI dashboard.</p>  
+        </div>        
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="lorenzo.lizzy@gmail.com">lorenzo.lizzy@gmail.com</a>
+        </p>        
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lizzy Lopez. All rights reserved.</p>
+    </footer>
+
+    <!--div class="navbar">    
         <div class="navbar-left">
             <img class="logo-image" src="images/LizzyLogo.png" alt="logo">
         </div>            
@@ -63,7 +105,7 @@ I specialize in building data-driven solutions using Visual Studio C#, SQL Serve
                 </a>
             </div>
         </div>
-    </div>
+    </div-->
 
 </body>
 </html>
