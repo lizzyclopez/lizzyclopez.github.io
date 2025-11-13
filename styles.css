@@ -1,8 +1,7 @@
-. {
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: border-box;
+    box-sizing: border-box;    
 }
 
 body {
@@ -25,7 +24,7 @@ header {
 
 nav {
     margin-top: 10px;
-    display: flex;;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -69,7 +68,7 @@ a {
     border-radius: 5px;
 }
 
-.home button:hover {
+#home button:hover {
     /*text-decoration: underline;*/
     background-color: #ff6600;
     color: #ffffff;
