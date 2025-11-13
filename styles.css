@@ -48,7 +48,7 @@ a {
     margin: 0 15px;
 }
 
-#home::checkmark
+#home {
     background-color: #e0ab9d;  /*background: url('hero-bg.jpg') no-repeat center center/cover;*/
     height: 400px;
     display: flex;
@@ -69,10 +69,43 @@ a {
     border-radius: 5px;
 }
 
-/*
-a:hover {
-    text-decoration: underline;
-}*/
+.home button:hover {
+    /*text-decoration: underline;*/
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+section {
+    width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.project-card {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+    background: #35424a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+}
+
 
 
 /*
