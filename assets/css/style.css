@@ -44,6 +44,7 @@ body {
     padding: 0 20px;
 }
 
+
 a {
     text-decoration: none;
     color: var(--accent-color);
@@ -108,7 +109,7 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     list-style: none;
     padding: 10px 0;
 }
