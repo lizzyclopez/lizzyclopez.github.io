@@ -200,6 +200,12 @@
                 <label for="message">Message</label>
                 <textarea name="message" id="message" rows="6" placeholder="Your message" required></textarea>
             </div>
+
+  <!-- Hidden Fields (optional for customization) -->
+  <input type="hidden" name="_captcha" value="false"> <!-- disables captcha -->
+  <input type="hidden" name="_next" value="https://lizzyclopez.github.io/thankyou.html"> <!-- redirect after submit -->
+  
+  <input type="hidden" name="_subject" value="New message from portfolio site!">
             
             <!-- Submit Button -->
             <button type="submit" class="btn">Send Message</button>
